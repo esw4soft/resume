@@ -1,2 +1,3 @@
-git remote add <遠端數據庫簡稱> <url>
+git remabcote add <遠端數據庫簡稱> <url>
 git reset 版本號
+git restore 檔案 (復原)

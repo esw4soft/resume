@@ -1,1 +1,2 @@
 git remote add <遠端數據庫簡稱> <url>
+git reset 版本號

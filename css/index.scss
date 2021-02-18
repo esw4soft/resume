@@ -14,16 +14,18 @@ body{
 }
 
 
-// 頁面
+// 作品頁面
 nav {
-    justify-content: space-around;
+
     background: #F2F2F2;
     
-    
+    .portfolios{
+       padding: 85px 0 0 10px;
+    }
     .worksbox{
-        margin-top: 150px;
+        margin-top: 65px;
         color: red;
-        font-size: 30px;
+        font-size: 24px;
         // display: flex;
         border: 1px solid;
         width: 25%;
@@ -55,11 +57,98 @@ nav {
 }
 
 
-
+// 向下滾動圖示
 .scrolldown{
     width: 50px;
     height: 50px;
     background: chocolate;
-    margin-top: 250px;
+    margin-top: 200px;
 }
 
+
+
+main{
+    // 個人頁面
+    .introbox{
+        margin: 170px auto 200px auto;
+        
+        .personal{
+            padding: 0 0 65px 10px;
+         }
+
+        .introimg{
+            width: 25%;
+            height: 35vh;
+            border: 1px solid;
+            
+        }
+
+        .introbrief{
+            width: 60%;
+            height: 35vh;
+            border: 1px solid;
+            font-size: 16px;
+            
+        }
+    }
+
+
+
+    // 作業頁面
+    .homeworkbox{
+        background: #F2F2F2;
+        margin-bottom: 200px;
+        .homework{
+            padding: 85px 0 65px 10px;
+         }
+
+
+        .homeworktry{
+            color: red;
+        font-size: 24px;
+        // display: flex;
+        border: 1px solid;
+        width: 25%;
+        height: 35vh;
+
+        a{
+            text-decoration: none;
+            color:black;
+        }
+
+    
+        figure{
+            width: 100%;
+            height: 100%;
+        }
+        figcaption{
+          
+       
+            border: 1px solid;
+            text-align: center;
+            display: flex;
+            word-break: break-all;
+            
+        }
+        }
+    }
+}
+
+footer{
+    height: 200px;
+    background: #0f3057;
+
+    .contact{ 
+        width: 100px;
+        line-height: 200px;
+        border: 1px white;
+        color: white; 
+    }
+}
+
+
+
+
+
+
+// footerX聯絡

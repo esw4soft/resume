@@ -1,4 +1,9 @@
-.worksbox1 {
-    color: red;
-    font-size: 50px;
+nav .worksbox1 {
+  color: red;
+  font-size: 50px;
 }
+
+nav .aaa {
+  color: blue;
+}
+/*# sourceMappingURL=index.css.map */

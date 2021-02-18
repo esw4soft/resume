@@ -1,6 +1,10 @@
 {
     "version": 3,
+<<<<<<< HEAD
     "mappings": "AAAA,AACI,GADD,CACC,UAAU,CAAC;EACP,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,IAAI;CAClB",
+=======
+    "mappings": "AAAA,AACI,GADD,CACC,UAAU,CAAC;EACP,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,IAAI;CAClB;;AAJL,AAMI,GAND,CAMC,IAAI,CAAA;EACA,KAAK,EAAC,IAAI;CACb",
+>>>>>>> 794c9d664d1548cf54d3264252ad2b8e9d75b71e
     "sources": [
         "index.scss"
     ],

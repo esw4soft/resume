@@ -1,3 +1,16 @@
 git remabcote add <遠端數據庫簡稱> <url>
 git reset 版本號
 git restore 檔案 (復原)
+
+解衝突情境:
+別人也有做專案code上傳時
+乳果自己也已經有做專案其他內容 然後自己add+commit 存到本地rep 再remote到github時會有衝突  (這時的commit就沒用了 因為要先解完衝突)
+這時需要先pull別人的東西下來 然後解衝突merge 確定解完後 (要確認解衝突的選項有消失)
+然後再add+commit一次 然後remote到github (這時的commit就有用了)
+
+總結: 自己要做專案之前都先pull github上面最新的東西更新 這樣就不用重複做commit
+
+
+
+超出部分換行
+word-break: break-all;

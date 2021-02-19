@@ -14,21 +14,18 @@ body {
     object-fit: cover;
 }
 // header
-header{
+header {
     height: 100px;
     background: #0f3057;
 
-    .welcome{
+    .welcome {
         height: 100px;
         color: white;
         font-size: 30px;
         justify-content: center;
         align-items: center;
-        
     }
 }
-
-
 
 // 作品頁面
 nav {
@@ -74,7 +71,11 @@ nav {
     width: 50px;
     height: 50px;
     background: chocolate;
+<<<<<<< HEAD
     margin-top: 165px;
+=======
+    margin-top: 150px;
+>>>>>>> b884d9653cbc7bbad441be311919fec40fb44c8a
 }
 
 main {

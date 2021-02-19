@@ -36,11 +36,11 @@ nav {
 }
 
 nav .portfolios {
-  padding: 85px 0 0 10px;
+  padding: 75px 0 0 10px;
 }
 
 nav .worksbox {
-  margin-top: 65px;
+  margin-top: 55px;
   font-size: 18px;
   width: 30%;
   height: 30vh;
@@ -61,8 +61,7 @@ nav .worksbox figure a img {
 }
 
 nav .worksbox figure a figcaption {
-  margin-top: 25px;
-  border: 1px solid;
+  margin-top: 40px;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -71,29 +70,53 @@ nav .worksbox figure a figcaption {
   color: #707070;
 }
 
-.scrolldown {
-  width: 50px;
-  height: 50px;
-  background: chocolate;
-<<<<<<< HEAD
-  margin-top: 165px;
-=======
-  margin-top: 150px;
->>>>>>> b884d9653cbc7bbad441be311919fec40fb44c8a
+.scrolldownbox {
+  width: 150px;
+  height: 70px;
+  margin-top: 200px;
+}
+
+.scrolldownbox .scrolldown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #707070;
+}
+
+.scrolldownbox i {
+  width: 150px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 30px;
+  color: #707070;
 }
 
 main .introbox {
-  margin: 150px auto 200px auto;
+  margin: 110px auto 200px auto;
 }
 
 main .introbox .personal {
-  padding: 0 0 65px 10px;
+  padding: 0 0 55px 10px;
 }
 
 main .introbox .introimg {
   width: 25%;
   height: 35vh;
-  border: 1px solid;
+}
+
+main .introbox .introimg img {
+  border-radius: 5px;
 }
 
 main .introbox .introbrief {
@@ -109,7 +132,7 @@ main .homeworkbox {
 }
 
 main .homeworkbox .homework {
-  padding: 85px 0 65px 10px;
+  padding: 85px 0 55px 10px;
 }
 
 main .homeworkbox .homeworktry {

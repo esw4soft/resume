@@ -32,11 +32,11 @@ nav {
     background: #f2f2f2;
 
     .portfolios {
-        padding: 85px 0 0 10px;
+        padding: 75px 0 0 10px;
     }
 
     .worksbox {
-        margin-top: 65px;
+        margin-top: 55px;
         font-size: 18px;
         width: 30%;
         height: 30vh;
@@ -54,8 +54,7 @@ nav {
                 }
 
                 figcaption {
-                    margin-top: 25px;
-                    border: 1px solid;
+                    margin-top: 40px;
                     text-align: center;
                     display: flex;
                     word-break: break-all;
@@ -67,30 +66,45 @@ nav {
 }
 
 // 向下滾動圖示
-.scrolldown {
-    width: 50px;
-    height: 50px;
-    background: chocolate;
-<<<<<<< HEAD
-    margin-top: 165px;
-=======
-    margin-top: 150px;
->>>>>>> b884d9653cbc7bbad441be311919fec40fb44c8a
+.scrolldownbox {
+    width: 150px;
+    height: 70px;
+    // background: chocolate;
+    margin-top: 200px;
+
+    .scrolldown{
+        display: flex;
+        justify-content: center;
+        color: #707070;
+        
+    }
+
+    i{
+        width: 150px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-size: 30px;
+        color: #707070;
+    }
 }
 
 main {
     // 個人頁面
     .introbox {
-        margin: 150px auto 200px auto;
+        margin: 110px auto 200px auto;
 
         .personal {
-            padding: 0 0 65px 10px;
+            padding: 0 0 55px 10px;
         }
 
         .introimg {
             width: 25%;
             height: 35vh;
-            border: 1px solid;
+            img{
+                border-radius: 5px;
+            }
         }
 
         .introbrief {
@@ -107,7 +121,7 @@ main {
         margin-bottom: 200px;
 
         .homework {
-            padding: 85px 0 65px 10px;
+            padding: 85px 0 55px 10px;
         }
 
         .homeworktry {

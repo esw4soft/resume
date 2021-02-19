@@ -14,28 +14,25 @@ body {
     object-fit: cover;
 }
 // header
-header{
+header {
     height: 100px;
     background: #0f3057;
 
-    .welcome{
+    .welcome {
         height: 100px;
         color: white;
         font-size: 30px;
         justify-content: center;
         align-items: center;
-        
     }
 }
-
-
 
 // 作品頁面
 nav {
     background: #f2f2f2;
 
     .portfolios {
-        padding: 100px 0 0 10px;
+        padding: 85px 0 0 10px;
     }
 
     .worksbox {
@@ -74,7 +71,7 @@ nav {
     width: 50px;
     height: 50px;
     background: chocolate;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 main {

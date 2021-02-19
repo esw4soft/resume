@@ -36,7 +36,7 @@ nav {
 }
 
 nav .portfolios {
-  padding: 100px 0 0 10px;
+  padding: 85px 0 0 10px;
 }
 
 nav .worksbox {
@@ -75,7 +75,7 @@ nav .worksbox figure a figcaption {
   width: 50px;
   height: 50px;
   background: chocolate;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 main .introbox {

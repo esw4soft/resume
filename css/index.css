@@ -15,7 +15,7 @@ body {
 }
 
 nav {
-  background: #F2F2F2;
+  background: #f2f2f2;
 }
 
 nav .portfolios {
@@ -24,16 +24,9 @@ nav .portfolios {
 
 nav .worksbox {
   margin-top: 65px;
-  color: red;
-  font-size: 24px;
-  border: 1px solid;
-  width: 25%;
-  height: 35vh;
-}
-
-nav .worksbox a {
-  text-decoration: none;
-  color: black;
+  font-size: 18px;
+  width: 30%;
+  height: 40vh;
 }
 
 nav .worksbox figure {
@@ -41,24 +34,35 @@ nav .worksbox figure {
   height: 100%;
 }
 
-nav .worksbox figcaption {
+nav .worksbox figure a {
+  text-decoration: none;
+  color: black;
+}
+
+nav .worksbox figure a img {
+  border-radius: 5px;
+}
+
+nav .worksbox figure a figcaption {
+  margin-top: 20px;
   border: 1px solid;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   word-break: break-all;
+  color: #707070;
 }
 
 .scrolldown {
   width: 50px;
   height: 50px;
   background: chocolate;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 main .introbox {
-  margin: 170px auto 200px auto;
+  margin: 150px auto 200px auto;
 }
 
 main .introbox .personal {
@@ -79,7 +83,7 @@ main .introbox .introbrief {
 }
 
 main .homeworkbox {
-  background: #F2F2F2;
+  background: #f2f2f2;
   margin-bottom: 200px;
 }
 

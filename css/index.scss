@@ -1,154 +1,136 @@
 // 基本設定
-body{
+body {
     background: #eee;
 }
 
-.wrapper{
+.wrapper {
     max-width: 1440px;
     margin: 0 auto;
 }
-.cover-fit{
+
+.cover-fit {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-
 // 作品頁面
 nav {
+    background: #f2f2f2;
 
-    background: #F2F2F2;
-    
-    .portfolios{
-       padding: 85px 0 0 10px;
+    .portfolios {
+        padding: 85px 0 0 10px;
     }
-    .worksbox{
+
+    .worksbox {
         margin-top: 65px;
-        color: red;
-        font-size: 24px;
-        // display: flex;
-        border: 1px solid;
-        width: 25%;
-        height: 35vh;
+        font-size: 18px;
+        width: 30%;
+        height: 40vh;
 
-        a{
-            text-decoration: none;
-            color:black;
-        }
-
-    
-        figure{
+        figure {
             width: 100%;
             height: 100%;
-        }
-        figcaption{
-          
-       
-            border: 1px solid;
-            text-align: center;
-            display: flex;
-            word-break: break-all;
-            
+
+            a {
+                text-decoration: none;
+                color: black;
+
+                img {
+                    border-radius: 5px;
+                }
+
+                figcaption {
+                    margin-top: 20px;
+                    border: 1px solid;
+                    text-align: center;
+                    display: flex;
+                    word-break: break-all;
+                    color: #707070;
+                }
+            }
         }
     }
-
-
-  
 }
 
-
 // 向下滾動圖示
-.scrolldown{
+.scrolldown {
     width: 50px;
     height: 50px;
     background: chocolate;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
-
-
-main{
+main {
     // 個人頁面
-    .introbox{
-        margin: 170px auto 200px auto;
-        
-        .personal{
-            padding: 0 0 65px 10px;
-         }
+    .introbox {
+        margin: 150px auto 200px auto;
 
-        .introimg{
+        .personal {
+            padding: 0 0 65px 10px;
+        }
+
+        .introimg {
             width: 25%;
             height: 35vh;
             border: 1px solid;
-            
         }
 
-        .introbrief{
+        .introbrief {
             width: 60%;
             height: 35vh;
             border: 1px solid;
             font-size: 16px;
-            
         }
     }
 
-
-
     // 作業頁面
-    .homeworkbox{
-        background: #F2F2F2;
+    .homeworkbox {
+        background: #f2f2f2;
         margin-bottom: 200px;
-        .homework{
+
+        .homework {
             padding: 85px 0 65px 10px;
-         }
+        }
 
-
-        .homeworktry{
+        .homeworktry {
             color: red;
-        font-size: 24px;
-        // display: flex;
-        border: 1px solid;
-        width: 25%;
-        height: 35vh;
-
-        a{
-            text-decoration: none;
-            color:black;
-        }
-
-    
-        figure{
-            width: 100%;
-            height: 100%;
-        }
-        figcaption{
-          
-       
+            font-size: 24px;
+            // display: flex;
             border: 1px solid;
-            text-align: center;
-            display: flex;
-            word-break: break-all;
-            
-        }
+            width: 25%;
+            height: 35vh;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            figure {
+                width: 100%;
+                height: 100%;
+            }
+
+            figcaption {
+                border: 1px solid;
+                text-align: center;
+                display: flex;
+                word-break: break-all;
+            }
         }
     }
 }
 
-footer{
+footer {
     height: 200px;
     background: #0f3057;
 
-    .contact{ 
+    .contact {
         width: 100px;
         line-height: 200px;
         border: 1px white;
-        color: white; 
+        color: white;
     }
 }
-
-
-
-
-
 
 // footerX聯絡

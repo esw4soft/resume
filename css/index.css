@@ -40,7 +40,7 @@ nav .portfolios {
 }
 
 nav .worksbox {
-  margin-top: 55px;
+  margin-top: 45px;
   font-size: 18px;
   width: 30%;
   height: 30vh;
@@ -73,7 +73,7 @@ nav .worksbox figure a figcaption {
 .scrolldownbox {
   width: 150px;
   height: 70px;
-  margin-top: 200px;
+  margin-top: 185px;
 }
 
 .scrolldownbox .scrolldown {
@@ -107,7 +107,7 @@ main .introbox {
 }
 
 main .introbox .personal {
-  padding: 0 0 55px 10px;
+  padding: 0 0 45px 10px;
 }
 
 main .introbox .introimg {
@@ -132,7 +132,7 @@ main .homeworkbox {
 }
 
 main .homeworkbox .homework {
-  padding: 85px 0 55px 10px;
+  padding: 85px 0 45px 10px;
 }
 
 main .homeworkbox .homeworktry {

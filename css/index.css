@@ -14,12 +14,12 @@ body {
      object-fit: cover;
 }
 
-header {
+header, footer {
   height: 100px;
   background: #0f3057;
 }
 
-header .welcome {
+header .welcome, footer .welcome {
   height: 100px;
   color: white;
   font-size: 30px;
@@ -36,11 +36,11 @@ nav {
 }
 
 nav .portfolios {
-  padding: 75px 0 0 10px;
+  padding: 85px 0 0 10px;
 }
 
 nav .worksbox {
-  margin-top: 45px;
+  margin-top: 55px;
   font-size: 18px;
   width: 30%;
   height: 30vh;
@@ -103,11 +103,11 @@ nav .worksbox figure a figcaption {
 }
 
 main .introbox {
-  margin: 110px auto 200px auto;
+  margin: 200px auto 220px auto;
 }
 
 main .introbox .personal {
-  padding: 0 0 45px 10px;
+  padding: 0 0 55px 10px;
 }
 
 main .introbox .introimg {
@@ -119,11 +119,30 @@ main .introbox .introimg img {
   border-radius: 5px;
 }
 
-main .introbox .introbrief {
+main .introbox .introbriefbox {
   width: 60%;
   height: 35vh;
-  border: 1px solid;
-  font-size: 16px;
+  color: #707070;
+  font-size: 18px;
+}
+
+main .introbox .introbriefbox .contactpp {
+  padding-top: 25px;
+}
+
+main .introbox .introbriefbox .contact i {
+  margin: 0 20px 0 0;
+}
+
+main .introbox .introbriefbox .contact .github {
+  text-decoration: none;
+  color: #707070;
+}
+
+main .introbox .introbriefbox .contact .cakeresume img {
+  padding-bottom: 2px;
+  width: 18px;
+  height: 20px;
 }
 
 main .homeworkbox {
@@ -132,15 +151,13 @@ main .homeworkbox {
 }
 
 main .homeworkbox .homework {
-  padding: 85px 0 45px 10px;
+  padding: 85px 0 55px 10px;
 }
 
 main .homeworkbox .homeworktry {
-  color: red;
-  font-size: 24px;
-  border: 1px solid;
-  width: 25%;
-  height: 35vh;
+  font-size: 18px;
+  width: 30%;
+  height: 30vh;
 }
 
 main .homeworkbox .homeworktry a {
@@ -153,13 +170,18 @@ main .homeworkbox .homeworktry figure {
   height: 100%;
 }
 
+main .homeworkbox .homeworktry img {
+  border-radius: 5px;
+}
+
 main .homeworkbox .homeworktry figcaption {
-  border: 1px solid;
+  margin-top: 40px;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   word-break: break-all;
+  color: #707070;
 }
 
 footer {

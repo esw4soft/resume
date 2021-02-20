@@ -14,7 +14,7 @@ body {
     object-fit: cover;
 }
 // header
-header {
+header,footer {
     height: 100px;
     background: #0f3057;
 
@@ -32,11 +32,11 @@ nav {
     background: #f2f2f2;
 
     .portfolios {
-        padding: 75px 0 0 10px;
+        padding: 85px 0 0 10px;
     }
 
     .worksbox {
-        margin-top: 45px;
+        margin-top: 55px;
         font-size: 18px;
         width: 30%;
         height: 30vh;
@@ -92,10 +92,10 @@ nav {
 main {
     // 個人頁面
     .introbox {
-        margin: 110px auto 200px auto;
+        margin: 200px auto 220px auto;
 
         .personal {
-            padding: 0 0 45px 10px;
+            padding: 0 0 55px 10px;
         }
 
         .introimg {
@@ -106,11 +106,43 @@ main {
             }
         }
 
-        .introbrief {
+        .introbriefbox {
             width: 60%;
             height: 35vh;
-            border: 1px solid;
-            font-size: 16px;
+            // border: 1px solid;
+            
+            color: #707070;
+            font-size: 18px;
+
+
+            .contactpp{
+                padding-top: 25px;
+                
+            }
+            .contact{
+                
+                // border: 1px solid;
+
+                i{
+                    margin: 0 20px 0 0;
+                }
+
+                .github{
+                    text-decoration: none;
+                    color: #707070;   
+                }
+  
+                .cakeresume{
+
+                    img{
+                        padding-bottom: 2px;
+                        width: 18px;
+                        height: 20px;
+
+                    }
+                }
+
+            }
         }
     }
 
@@ -120,16 +152,15 @@ main {
         margin-bottom: 200px;
 
         .homework {
-            padding: 85px 0 45px 10px;
+            padding: 85px 0 55px 10px;
+            
         }
 
         .homeworktry {
-            color: red;
-            font-size: 24px;
-            // display: flex;
-            border: 1px solid;
-            width: 25%;
-            height: 35vh;
+           
+            font-size: 18px;
+            width: 30%;
+            height: 30vh;
 
             a {
                 text-decoration: none;
@@ -141,11 +172,16 @@ main {
                 height: 100%;
             }
 
+            img {
+                border-radius: 5px;
+            }
+
             figcaption {
-                border: 1px solid;
+                margin-top: 40px;
                 text-align: center;
                 display: flex;
                 word-break: break-all;
+                color: #707070;
             }
         }
     }
